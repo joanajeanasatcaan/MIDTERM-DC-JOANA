@@ -14,7 +14,7 @@ class BidderFactory extends Factory
             'first_name' => $this->faker->firstName,
             'last_name' => $this->faker->lastName,
             'address' => $this->faker->address,
-            'email' => $this->faker->unique()->safeEmail,
+            'email' => $this->faker->safeEmail,
         ];
     }
 }
